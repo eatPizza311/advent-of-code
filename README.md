@@ -1,2 +1,7 @@
 # advent-of-code-2023
-Advent of code 2023 in Rust
+
+## Get ready for a new day
+Using [cargo-generate](https://github.com/cargo-generate/cargo-generate) to generate the daily template:
+```
+just gen <day>
+```
