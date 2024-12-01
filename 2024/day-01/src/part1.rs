@@ -39,7 +39,7 @@ mod tests {
 3   3";
 
     #[test]
-    fn _parse_one_digit_numbers() {
+    fn parse_one_digit_numbers() {
         let input = "3   4";
         let (left_number, right_number) = parse_line_to_pair(input);
         assert_eq!(left_number, 3);
