@@ -9,7 +9,7 @@ fn parse_line_to_pair(line: &str) -> (u32, u32) {
     (parts[0], parts[1])
 }
 
-fn split_into_lists(input: &str) -> (Vec<u32>, Vec<u32>) {
+pub fn split_into_lists(input: &str) -> (Vec<u32>, Vec<u32>) {
     input.lines().map(parse_line_to_pair).unzip()
 }
 
