@@ -3,6 +3,9 @@ This year, I'm using a simplified version of [@ChristopherBiscardi](https://gith
 
 The frequently used commands for this project are documented and managed by [just](https://github.com/casey/just) (see `justfile`) to improve productivity and consistency.
 
+# Goal 🎯
+The goal this year is to complete at least part1 each day.
+
 # Create a new day
 The naming convention for each day is `day-XX`
 ```bash
